@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
     "@openzeppelin/upgrades": "^2.8.0"
   }
 }

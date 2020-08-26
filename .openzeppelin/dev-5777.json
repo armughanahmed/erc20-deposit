@@ -1,0 +1,317 @@
+{
+  "contracts": {
+    "Token": {
+      "address": "0x7875d7Be585A8c6e7F71dCA9942AD37131215976",
+      "constructorCode": "608060405234801561001057600080fd5b50611188806100206000396000f3fe",
+      "bodyBytecodeHash": "d9d7a305590d466cab63e18a8d7c9c44c11239de3471c7e81c415b0cbdd5d284",
+      "localBytecodeHash": "1483eb9e0a640ece3d624109b3e4d7b610e3778ac28b21b26bf4ac9ff567734e",
+      "deployedBytecodeHash": "1483eb9e0a640ece3d624109b3e4d7b610e3778ac28b21b26bf4ac9ff567734e",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        },
+        "t_string": {
+          "id": "t_string",
+          "kind": "elementary",
+          "label": "string"
+        },
+        "t_mapping<t_uint256>": {
+          "id": "t_mapping<t_uint256>",
+          "valueType": "t_uint256",
+          "label": "mapping(key => uint256)",
+          "kind": "mapping"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
+          "label": "initialized",
+          "astId": 5,
+          "type": "t_bool",
+          "src": "757:24:0"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
+          "label": "initializing",
+          "astId": 8,
+          "type": "t_bool",
+          "src": "876:25:0"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
+          "label": "______gap",
+          "astId": 73,
+          "type": "t_array:50<t_uint256>",
+          "src": "1982:29:0"
+        },
+        {
+          "contract": "Ownable",
+          "path": "contracts/Token.sol",
+          "label": "_owner",
+          "astId": 448,
+          "type": "t_address",
+          "src": "172:22:2"
+        },
+        {
+          "contract": "Token",
+          "path": "contracts/Token.sol",
+          "label": "_name",
+          "astId": 648,
+          "type": "t_string",
+          "src": "2661:12:2"
+        },
+        {
+          "contract": "Token",
+          "path": "contracts/Token.sol",
+          "label": "_symbol",
+          "astId": 650,
+          "type": "t_string",
+          "src": "2679:14:2"
+        },
+        {
+          "contract": "Token",
+          "path": "contracts/Token.sol",
+          "label": "_totalsupply",
+          "astId": 652,
+          "type": "t_uint256",
+          "src": "2700:20:2"
+        },
+        {
+          "contract": "Token",
+          "path": "contracts/Token.sol",
+          "label": "_decimal",
+          "astId": 654,
+          "type": "t_uint256",
+          "src": "2726:16:2"
+        },
+        {
+          "contract": "Token",
+          "path": "contracts/Token.sol",
+          "label": "_balance",
+          "astId": 658,
+          "type": "t_mapping<t_uint256>",
+          "src": "2748:34:2"
+        },
+        {
+          "contract": "Token",
+          "path": "contracts/Token.sol",
+          "label": "_allownce",
+          "astId": 664,
+          "type": "t_mapping<t_uint256>",
+          "src": "2788:54:2"
+        },
+        {
+          "contract": "Token",
+          "path": "contracts/Token.sol",
+          "label": "x",
+          "astId": 666,
+          "type": "t_uint256",
+          "src": "2848:6:2"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    },
+    "ContractA": {
+      "address": "0x49328Af97602B3670e17Fd90de332E779973c4aE",
+      "constructorCode": "608060405234801561001057600080fd5b5061150a806100206000396000f3fe",
+      "bodyBytecodeHash": "d19a2a66fc85b37e13630fa596a732b1de5e64f754af8e67e6ecb2946f210283",
+      "localBytecodeHash": "c78f17bc73583069acbd4cc7b86031933947ebafd882cb8113e4aa224f80110c",
+      "deployedBytecodeHash": "c78f17bc73583069acbd4cc7b86031933947ebafd882cb8113e4aa224f80110c",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        },
+        "t_array:49<t_uint256>": {
+          "id": "t_array:49<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "49",
+          "kind": "array",
+          "label": "uint256[49]"
+        },
+        "t_mapping<t_uint256>": {
+          "id": "t_mapping<t_uint256>",
+          "valueType": "t_uint256",
+          "label": "mapping(key => uint256)",
+          "kind": "mapping"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
+          "label": "initialized",
+          "astId": 5,
+          "type": "t_bool",
+          "src": "757:24:0"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
+          "label": "initializing",
+          "astId": 8,
+          "type": "t_bool",
+          "src": "876:25:0"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
+          "label": "______gap",
+          "astId": 73,
+          "type": "t_array:50<t_uint256>",
+          "src": "1982:29:0"
+        },
+        {
+          "contract": "Ownable",
+          "path": "contracts/Token.sol",
+          "label": "_owner",
+          "astId": 448,
+          "type": "t_address",
+          "src": "172:22:2"
+        },
+        {
+          "contract": "ContextUpgradeSafe",
+          "path": "contracts/ContractA.sol",
+          "label": "__gap",
+          "astId": 117,
+          "type": "t_array:50<t_uint256>",
+          "src": "1245:25:1"
+        },
+        {
+          "contract": "PausableUpgradeSafe",
+          "path": "contracts/ContractA.sol",
+          "label": "_paused",
+          "astId": 135,
+          "type": "t_bool",
+          "src": "2015:20:1"
+        },
+        {
+          "contract": "PausableUpgradeSafe",
+          "path": "contracts/ContractA.sol",
+          "label": "__gap",
+          "astId": 224,
+          "type": "t_array:49<t_uint256>",
+          "src": "3259:25:1"
+        },
+        {
+          "contract": "ContractA",
+          "path": "contracts/ContractA.sol",
+          "label": "_token",
+          "astId": 237,
+          "type": "t_address",
+          "src": "3412:19:1"
+        },
+        {
+          "contract": "ContractA",
+          "path": "contracts/ContractA.sol",
+          "label": "_balance",
+          "astId": 241,
+          "type": "t_mapping<t_uint256>",
+          "src": "3437:34:1"
+        },
+        {
+          "contract": "ContractA",
+          "path": "contracts/ContractA.sol",
+          "label": "timeout",
+          "astId": 243,
+          "type": "t_uint256",
+          "src": "3477:12:1"
+        },
+        {
+          "contract": "ContractA",
+          "path": "contracts/ContractA.sol",
+          "label": "timelimit",
+          "astId": 245,
+          "type": "t_uint256",
+          "src": "3495:14:1"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "erc-20-deposit/Token": [
+      {
+        "address": "0x9cC00a37f3E56C98d1e56CCDc0650F59f9d31303",
+        "version": "1.0.0",
+        "implementation": "0x7875d7Be585A8c6e7F71dCA9942AD37131215976",
+        "admin": "0xb403643d40325BC068329448d75551528E918477",
+        "kind": "Upgradeable"
+      }
+    ],
+    "erc-20-deposit/ContractA": [
+      {
+        "address": "0xD7869696D5c59AD7679dE08f44D09b4340D2705f",
+        "version": "1.0.0",
+        "implementation": "0x49328Af97602B3670e17Fd90de332E779973c4aE",
+        "admin": "0xb403643d40325BC068329448d75551528E918477",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": {
+      "package": "0xFD8CE673C79f91dDdD1D6bb4aDab3bc3FA485970",
+      "version": "3.0.0",
+      "customDeploy": true
+    }
+  },
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0xb403643d40325BC068329448d75551528E918477"
+  }
+}
